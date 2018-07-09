@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": "src",
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "build/main",
+
+    "lib": ["esnext"],
+    "declaration": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Debugging Options */
+    "pretty": true,
+    "listFiles": false,
+    "traceResolution": false,
+    "listEmittedFiles": false
+
+    /* Experimental Options */
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true
+  },
+  "include": ["src/**/*.ts"]
+}
