@@ -4,7 +4,6 @@ docs
 coverage
 
 # Configurations
-tslint.json
 tsconfig.json
 tsconfig.module.json
 
